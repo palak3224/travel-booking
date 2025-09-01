@@ -3,6 +3,7 @@ import FlightsHero from './components/FlightsHero'
 import BookFlightForm from './components/BookFlightForm'
 import PopularFlights from './components/PopularFlights'
 import FlightBookingSteps from './components/FlightBookingSteps'
+import FlightsCTABanner from './components/FlightsCTABanner'
 
 const Flights = () => {
   return (
@@ -11,6 +12,7 @@ const Flights = () => {
         <BookFlightForm />
         <PopularFlights />
         <FlightBookingSteps />
+        <FlightsCTABanner />
     </div>
   )
 }
