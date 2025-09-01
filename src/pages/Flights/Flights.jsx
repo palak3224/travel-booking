@@ -2,6 +2,7 @@ import React from 'react'
 import FlightsHero from './components/FlightsHero'
 import BookFlightForm from './components/BookFlightForm'
 import PopularFlights from './components/PopularFlights'
+import FlightBookingSteps from './components/FlightBookingSteps'
 
 const Flights = () => {
   return (
@@ -9,6 +10,7 @@ const Flights = () => {
         <FlightsHero />
         <BookFlightForm />
         <PopularFlights />
+        <FlightBookingSteps />
     </div>
   )
 }
