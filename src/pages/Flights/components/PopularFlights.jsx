@@ -122,7 +122,7 @@ const PopularFlights = () => {
           {flightData.map((flight, index) => (
             <motion.div
               key={flight.id}
-              className="bg-white shadow-md hover:shadow-lg transition-all duration-300 overflow-hidden group cursor-pointer w-64 h-80"
+              className="bg-white shadow-md hover:shadow-lg transition-all duration-300 overflow-hidden group cursor-pointer h-80"
               style={{
                 borderRadius: '16px 16px 16px 0px'
               }}
