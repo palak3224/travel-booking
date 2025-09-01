@@ -1,10 +1,16 @@
-import Home from "./pages/Home/Home"
+import { Outlet } from "react-router-dom";
+import Footer from "./component/Footer"
+import Navbar from "./component/Navbar"
+import ScrollToTop from "./component/ScrollToTop";
 
 
 const App = () => {
   return (
     <div>
-      <Home />
+      <ScrollToTop />
+      <Navbar />
+      <Outlet />
+      <Footer />
     </div>
   )
 }
