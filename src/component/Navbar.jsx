@@ -18,10 +18,10 @@ const Navbar = () => {
   const navLinks = [
     { name: "Homepage", href: "/", id: "homepage" },
     { name: "Flights", href: "/flights", id: "flights" },
-    { name: "Hotels", href: "#hotels", id: "hotels" },
-    { name: "Cruises", href: "#cruises", id: "cruises" },
+    { name: "Hotels", href: "/hotels", id: "hotels" },
+    { name: "Cruises", href: "/cruises", id: "cruises" },
     { name: "About Us", href: "/about", id: "about" },
-    { name: "Contact", href: "#contact", id: "contact" }
+    { name: "Contact", href: "/contact", id: "contact" }
   ];
 
   return (
