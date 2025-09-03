@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import CruisesHero from './components/CruisesHero'
 import BookCruiseForm from './components/BookCruiseForm'
 import CruiseComponents from './components/CruiseComponents'
@@ -6,13 +6,19 @@ import CruiseBookingSteps from './components/CruiseBookingSteps'
 import CruiseCTABanner from './components/CruiseCTABanner'
 
 const Cruises = () => {
+  useEffect(() => {
+    window.scrollTo({
+      top: window.innerHeight * 0.8,
+    });
+  }, []);
+
   return (
     <div>
-        <CruisesHero />
-        <BookCruiseForm />
-        <CruiseComponents />
-        <CruiseBookingSteps />
-        <CruiseCTABanner />
+      <CruisesHero />
+      <BookCruiseForm />
+      <CruiseComponents />
+      <CruiseBookingSteps />
+      <CruiseCTABanner />
     </div>
   )
 }
