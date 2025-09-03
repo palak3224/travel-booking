@@ -14,7 +14,7 @@ const HeroSection = () => {
   const tabs = ["Flights", "Hotels", "Cruises"];
 
   return (
-    <div className="w-full min-h-screen relative overflow-hidden">
+    <div className="w-full min-h-screen relative overflow-hidden pt-20">
       {/* Background Image - Globe pattern - Now shows on all devices */}
       <div className="absolute inset-0 bg-cover bg-center bg-no-repeat opacity-35"
            style={{ backgroundImage: `url(${HeroImgBg})` }}>
